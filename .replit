@@ -1,6 +1,6 @@
 compile = 'g++ -std="c++20" red_social_main.cpp RedSocial.cpp -o red_social'
 run = './red_social'
-entrypoint = "main.cpp"
+entrypoint = "red_social_main.cpp"
 hidden = ["main", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [languages.cpp]
